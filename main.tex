@@ -1,0 +1,38 @@
+%% Bachelor Thesis Template of JIANGSU Uniersity
+%%
+%% Created by TY
+
+\documentclass[]{UJSBachelor}
+
+\begin{document}
+%%----------- 封面部分 ----------- %%
+  \ctitle{\LaTeX{} 毕业论文模板使用指南}
+  \etitle{Template for Undergraduate Thesis \linebreak Wuhan University}
+  \cschool{院系名称}
+  \cmajor{专业名称}
+  \cauthor{作者姓名}
+  \cadvisor{教师姓名}
+  \cadvisorinfo{教师职称}
+  \cdate{二〇二〇年五月}
+
+  \maketitlepage            % 封面
+
+%%----------- 前言部分 ----------- %%
+  \include{pages/abstract}  % 摘要
+  \contents                 % 目录
+
+%%----------- 主体部分 ----------- %%
+  \include{pages/chapter1}
+  \include{pages/chapter2}
+  \include{pages/chapter3}
+  \include{pages/chapter4}
+  \include{pages/conclusion}
+
+%%----------- 结尾部分 ----------- %%
+  \include{pages/thanks}    % 致谢
+  \addcontentsline{toc}{chapter}{参考文献}
+  \bibliography{ref/refs}   % 参考文献
+
+  \include{pages/appendix}  % 附录
+
+\end{document}
