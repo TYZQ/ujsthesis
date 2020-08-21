@@ -68,6 +68,7 @@
 \renewcommand\cftsubsecpagefont{\songti\zihao{5}}
 \renewcommand\cftsubsubsecpagefont{\songti\zihao{5}}
 
+%注释掉即二级标题与三级标题采用缩进
 %\renewcommand\cftchapafterpnum{\vskip5pt}
 %\renewcommand\cftsecafterpnum{\vskip3pt}
 %\renewcommand\cftsubsecafterpnum{\vskip2pt}
@@ -162,7 +163,7 @@
 \RequirePackage[sort&compress]{natbib}
 \setcitestyle{numbers,square,comma}
 \ctexset{bibname={参考文献}}
-\bibliographystyle{data/gbt7714-2005-whu}  % 参考文献样式
+\bibliographystyle{data/gbt7714-2005}  % 参考文献样式
 
 \RequirePackage{hyperref} % 引用
 \hypersetup{citecolor=magenta,linkcolor=black,urlcolor=blue} % 设置引用链接颜色
